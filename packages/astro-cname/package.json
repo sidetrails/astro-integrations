@@ -1,0 +1,49 @@
+{
+  "name": "@sidetrails/astro-cname",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Generate a CNAME file for your Astro site",
+  "license": "MIT",
+  "homepage": "https://github.com/sidetrails/astro-integrations/packages/astro-cname",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidetrails/astro-integrations",
+    "directory": "packages/astro-cname"
+  },
+  "bugs": {
+    "url": "https://github.com/sidetrails/astro-integrations/issues"
+  },
+  "author": {
+    "name": "Side Trails Software Development",
+    "email": "contact@sidetrails.dev",
+    "url": "https://sidetrails.dev"
+  },
+  "contributors": [
+    {
+      "name": "Spencer Haan",
+      "url": "https://github.com/SpencerHaan"
+    }
+  ],
+  "keywords": [
+    "astro",
+    "astro-component",
+    "astro-integration",
+    "cname",
+    "utils"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748",
+  "peerDependencies": {
+    "astro": "^4.0.0 || ^5.0.0"
+  }
+}
