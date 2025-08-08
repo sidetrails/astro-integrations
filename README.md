@@ -1,8 +1,8 @@
 ## Packages
 
-| Package                                         | Release Notes |
-| ------------------------------------------------|---------------|
-| [@sidetrails/astro-cname](packages/astro-cname) | WIP           |
+| Package                                         | Release Notes                                                                                                                              |
+| ------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| [@sidetrails/astro-cname](packages/astro-cname) | [![@sidetrails/astro-cname version](https://img.shields.io/npm/v/@sidetrails/astro-cname.svg?label=%20)](packages/astro-cname/CHANGELOG.md)|
 
 ## License
 
