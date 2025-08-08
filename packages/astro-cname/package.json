@@ -31,7 +31,9 @@
     "utils"
   ],
   "scripts": {
-    "build": "tsc"
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "tsc -b --clean && tsc"
   },
   "types": "./dist/index.d.ts",
   "exports": {
